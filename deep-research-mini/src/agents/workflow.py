@@ -34,7 +34,11 @@ async def check_clarity(state: ResearchState):
     """
     Analyzes the user's latest message (and history) to decide if clarification is needed.
     """
-    messages = state["messages"]
+    # Safely get messages, providing a fallback and error handling.
+    messages = state.get("messages") or []
+    if not messages:
+        # This case should not happen in normal flow but guards against crashes.
+        return {"messages": [AIMessage(content="Error: State is missing messages. Cannot proceed.")]}
 
     # === [Single Round Clarification Enforcement] ===
     # If we have history (User -> AI -> User...), assume the user has responded to the clarification.

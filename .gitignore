@@ -16,6 +16,12 @@ wheels/
 **/.env.local
 *.env
 
+# IDE specific
+.idea/
+
+# Node.js dependencies
+node_modules/
+
 # LangGraph
 .langgraph_api/
 **/.langgraph_api/
