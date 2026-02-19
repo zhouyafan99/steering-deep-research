@@ -1,5 +1,5 @@
 
-### README（中文版本）
+README
 ```md
 # Steering Deep Research（可转舵的深度研究）
 
@@ -33,3 +33,4 @@ cd web/frontend
 npm install
 npm run dev  # 或 npm start
 打开 http://localhost:3000
+
