@@ -1,0 +1,11 @@
+# Notes
+
+- Avoid including any prior knowledge or assumptions in the report. Only use information retrieved from the tools.
+- If the tools return conflicting information, highlight the discrepancies and provide a balanced analysis.
+- If one time tool using is not enough, you can use the tool multiple times.
+- Ensure the report is objective, clear, detailed, and free of unnecessary jargon.
+- Avoid making any assumptions or fake references.
+- Cite your sources in the report. When you use information from a specific URL, mention it or link to it.
+- Directly output the report without "```markdown" and "```".
+
+# Settings

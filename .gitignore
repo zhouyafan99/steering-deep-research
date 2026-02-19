@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment Variables (CRITICAL PROTECTION)
+.env
+.env.local
+**/.env
+**/.env.local
+*.env
+
+# IDE specific
+.idea/
+
+# Node.js dependencies
+node_modules/
+
+# LangGraph
+.langgraph_api/
+**/.langgraph_api/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# uv lockfile
+uv.lock

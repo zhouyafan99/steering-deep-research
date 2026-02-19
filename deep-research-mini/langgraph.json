@@ -1,0 +1,10 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "researcher": "./src/agents/research.py:researcher",
+    "planner": "./src/agents/planner.py:planner",
+    "supervisor": "./src/agents/supervisor.py:supervisor",
+    "deep_research": "./src/agents/workflow.py:graph"
+  },
+  "env": ".env"
+}
